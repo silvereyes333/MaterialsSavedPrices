@@ -1,0 +1,18 @@
+## Title: Materials Saved Prices
+## Author: silvereyes
+## Description: An extension to dump all current materials prices from *LibPrice* to a saved vars file that can be shared between accounts.
+## Version: 1.0.0
+## APIVersion: 100033 100034
+## DependsOn: LibPrice
+## SavedVariables: MaterialsSavedPrices_Data
+
+## This Add-On is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its affiliates. 
+## The Elder Scrolls® and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the 
+## United States and/or other countries. All rights reserved.
+
+; Language files
+localization\en.lua
+localization\$(language).lua
+
+; Addon
+MaterialsSavedPrices.lua
